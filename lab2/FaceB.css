@@ -1,0 +1,91 @@
+
+
+
+
+body{
+    width: 100%;
+    background: #f0f2f5;
+}
+form{
+    background: white;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    box-shadow: 5px 5px 6px -7px;
+    margin: 20vh 800px;
+}
+input[type="text"], input[type="password"]{
+    display: block;
+    background: white;
+    margin: auto;
+    border: #00A5D2 solid 1.5px;
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+.submit{
+    border: none;
+    background: #1877f2;
+    color: white;
+    width: 283px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forget{
+    display: block;
+    width: 273px;
+    margin: auto;
+    color: #1877f2;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: 400;
+}
+.createacc{
+    border: none;
+    background: #42b72a;
+    color: white;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primepage{
+    width: 330px;
+    position: absolute;
+    color: black;
+    font-family: "Segoe UI", Arial;
+    /*padding: 0px 0px;*/
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin: 63vh 800px;
+}
+
+.imgFasebook{
+    position: absolute;
+    width: 300px;
+    margin: 24vh 230px;
+    font-family: "Segoe UI", Roboto, "san francisco";
+}
+.txtFacebook{
+    width: 450px;
+    font-size: 30px;
+    position: absolute;
+    margin: 37vh 260px;
+}
+
+

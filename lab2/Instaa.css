@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    background: #f0f2f5;
+}
+
+.firstform {
+    background: white;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    padding: 100px 20px 5px 20px;
+    /* box-shadow: 5px 5px 6px -7px; */
+    border: 1.5px solid grey;
+    margin: 10vh 850px;
+}
+
+.secondform {
+    background: white;
+    position: absolute;
+    width: 370px;
+    height: 50px;
+    padding: 0px 10px;
+    border: 1.5px solid grey;
+    margin: 75vh 850px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    background: white;
+    margin: auto;
+    border: black solid 1.5px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background: #1877f2;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    width: 220px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.ili {
+    color: black;
+    text-align: center;
+    /*font-weight: bold;*/
+    font-size: 14px;
+}
+
+.facebook {
+    text-align: center;
+    font-weight: bold;
+}
+
+.singFacebook {
+    font-size: 18px;
+}
+
+.forgetpass {
+    font-size: 10px;
+}
+
+.textsecfoorm {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 0px;
+    color: black;
+    font-family: Arial;
+}
+
+.defolttext {
+    position: absolute;
+    width: 250px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 300;
+    margin: 85vh 900px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.textinsta {
+    width: 200px;
+    margin: 14vh 950px;
+    position: absolute;
+    
+
+
+    /*z-index: 1;*/
+}
+
+.appstore {
+    width: 175px;
+    position: absolute;
+    margin: 87vh 875px;
+}
+
+.googleplay {
+    width: 140px;
+    position: absolute;
+    margin: 90.1vh 1050px;
+}
+
+.instaphone {
+    width: 500px;
+    position: absolute;
+    margin: 8vh 500px;
+    right: 300px;
+    border-radius: 42px;
+}
+
+.phone-bc{
+    position: absolute;
+    margin: 12vh 500px;
+    width: 280px;
+    height: 590px;
+    right: 358px;
+
+
+}

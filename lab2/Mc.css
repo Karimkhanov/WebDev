@@ -1,0 +1,209 @@
+.top{
+    background: white;
+}
+
+.mainMicro{
+    position: absolute;
+    background: #dee0e3;
+    width: 99%;
+    height: 500px;
+    margin: 35px 0px;
+}
+.txtMicro{
+    position: absolute;
+    margin: 30vh 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+.textAd{
+    position: absolute;
+    font-size: 15px;
+    width: 450px;
+    font-weight: 500;
+    margin: 37vh 50px;
+}
+.with6pers{
+    background: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin: 50vh 50px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+.for1pers{
+    background: none;
+    width: 150px;
+    height: 30px;
+    color: black;
+    margin: 50vh 200px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+button{
+    position: absolute;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttonMicro{
+    /*position: absolute;*/
+    /*border: none;*/
+    /*background: white;*/
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.image-button{
+    width: 20px;
+    height: 20px;
+    /*position: absolute;*/
+    margin: 2px 10px;
+    /*border: none;*/
+    background-image: url("/WebDev/lab2/img/microsoftEmblem.png");
+    background-size: cover;
+    /*cursor: pointer;*/
+}
+.microsoft365{
+    margin: 4px 150px;
+}
+.office{
+    margin: 4px 280px;
+}
+.windows{
+    margin: 4px 360px;
+}
+.support{
+    margin: 4px 460px;
+}
+.productsMicro{
+    margin: 4px 900px;
+    width: 180px;
+}
+.down-arrow{
+    width: 20px;
+    height: 20px;
+    /*position: absolute;*/
+    margin: 2px 1090px;
+    /*border: none;*/
+    background-image: url("/WebDev/lab2/img/downarrow.png");
+    background-size: cover;
+    /*cursor: pointer;*/
+}
+.search{
+    margin: 4px 1150px;
+}
+.search-button{
+    width: 20px;
+    height: 20px;
+    /*position: absolute;*/
+    margin: 2px 1205px;
+    /*border: none;*/
+    background-image: url("/WebDev/lab2/img/searchButton.webp");
+    background-size: cover;
+    /*cursor: pointer;*/
+}
+.basket{
+    margin: 4px 1250px;
+}
+.basket-button{
+    width: 20px;
+    height: 20px;
+    /*position: absolute;*/
+    margin: 2px 1320px;
+    /*border: none;*/
+    background-image: url("/WebDev/lab2/img/basketButton.png");
+    background-size: cover;
+    /*cursor: pointer;*/
+}
+.logIn{
+    margin: 4px 1350px;
+}
+.user-button{
+    width: 20px;
+    height: 20px;
+    /*position: absolute;*/
+    margin: 2px 1405px;
+    /*border: none;*/
+    background-image: url("/WebDev/lab2/img/userButton.webp");
+    background-size: cover;
+    /*cursor: pointer;*/
+}
+
+.formTeams{
+    position: absolute;
+    background: white;
+    position: absolute;
+    padding: 160px 10px 0px 10px;
+    /*box-shadow: 5px 5px 6px -7px;*/
+    width: 300px;
+    height: 150px;
+    margin: 75vh 0px;
+}
+.teamsimg{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: -20vh 0px;
+    background-image: url("/WebDev/lab2/img/imgteams.jpeg");
+    background-size: cover;
+}
+
+.formEdge{
+    position: absolute;
+    background: white;
+    position: absolute;
+    padding: 160px 10px 0px 10px;
+    /*box-shadow: 5px 5px 6px -7px;*/
+    width: 300px;
+    height: 150px;
+    margin: 75vh 305px;
+}
+.imgEdge{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: -20vh 0px;
+    background-image: url("/WebDev/lab2/img/microsoft_edge.jpg");
+    background-size: cover;
+}
+.oneDrive{
+    position: absolute;
+    background: white;
+    position: absolute;
+    padding: 160px 10px 0px 10px;
+    /*box-shadow: 5px 5px 6px -7px;*/
+    width: 300px;
+    height: 150px;
+    margin: 75vh 610px;
+}
+.oneDriveimg{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: -20vh 0px;
+    background-image: url("/WebDev/lab2/img/OneDrive.jpg");
+    background-size: cover;
+}
+.windows10{
+    position: absolute;
+    background: white;
+    position: absolute;
+    padding: 160px 10px 0px 10px;
+    /*box-shadow: 5px 5px 6px -7px;*/
+    width: 300px;
+    height: 150px;
+    margin: 75vh 915px;
+}
+.windows10img{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: -20vh 0px;
+    background-image: url("/WebDev/lab2/img/windows10.png");
+    background-size: cover;
+}
