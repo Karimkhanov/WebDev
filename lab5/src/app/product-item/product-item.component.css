@@ -1,0 +1,46 @@
+.wrapper-item {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.wrapper-item-right {
+    padding-left: 20px;
+}
+
+.wrapper-item-right p {
+    padding-top: 10px;
+}
+
+img {
+    width: auto;
+    height: 120px;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.buttons {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 50px;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

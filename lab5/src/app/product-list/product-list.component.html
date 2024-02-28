@@ -1,0 +1,36 @@
+<div class="wrapper">
+  <div class="wrapper-categories">
+    <div class="wrapper-items" *ngFor="let category of categories">
+      <button (click)="handleCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+  </div>
+
+  <div class="wrapper-container">
+    <div
+      class="wrapper-products"
+      *ngIf="handleCategory(currentCategory).length > 0"
+    >
+      <div
+        *ngFor="let product of handleCategory(currentCategory)"
+        class="wrapper-products-items"
+      >
+        <app-product-item
+          [product]="product"
+          (likesUpdate)="updateLike($event, product)"
+          (deleteUpdate)="handleDelete(product)"
+        ></app-product-item>
+        <div class="buttons">
+          <button type="button" (click)="share(product.link)">Share</button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="wrapper-products"
+      *ngIf="handleCategory(currentCategory).length === 0"
+    >
+      <h2>Пусто</h2>
+    </div>
+  </div>
+</div>
