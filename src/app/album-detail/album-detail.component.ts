@@ -13,6 +13,8 @@ import {AlbumsService} from '../albums/albums.service';
 })
 export class AlbumDetailComponent implements OnInit {
 
+
+
   album: IAlbum;
   newTitle: string;
   faCheckIcon = faCheck;

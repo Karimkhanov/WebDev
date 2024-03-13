@@ -7,6 +7,7 @@
       <a class="link" routerLink="{{ album.id }}"
         >{{ album.id }} - {{ album.title }}</a
       >
+
       <button class="btn btn-outline-danger " (click)="handleDeleteAlbum(album)">
         <fa-icon [icon]="faTrashIcon"></fa-icon>
       </button>

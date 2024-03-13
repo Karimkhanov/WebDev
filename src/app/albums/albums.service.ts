@@ -33,6 +33,7 @@ export class AlbumsService {
       .pipe(catchError((error) => throwError(error)));
   }
 
+
   getPhotos(id: number): Observable<IPhotos[]> {
     return this.http.get<IPhotos[]>(`https://jsonplaceholder.typicode.com/albums/${id}/photos`);
   }

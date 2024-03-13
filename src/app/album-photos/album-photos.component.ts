@@ -19,6 +19,7 @@ export class AlbumPhotosComponent implements OnInit {
     this.photos = [{}] as IPhotos[];
   }
 
+
   ngOnInit(): void {
     this.route.paramMap.subscribe(
       (params) => {

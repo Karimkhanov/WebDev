@@ -17,6 +17,7 @@ export class SidebarComponent implements OnInit {
 
   sidebarItems: ISidebar[];
 
+
   constructor() {
     this.sidebarItems = [];
   }

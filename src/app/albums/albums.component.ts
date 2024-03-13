@@ -27,6 +27,7 @@ export class AlbumsComponent implements OnInit {
     this.newAlbumTitle = "";
   }
 
+
   ngOnInit(): void {
     this.albumsService.getAlbums().pipe(
       map( x=> x.slice(0,10))
