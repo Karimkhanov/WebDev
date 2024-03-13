@@ -15,13 +15,6 @@ export class ProductItemComponent {
   heart = faHeart;
   clicked: boolean = false;
 
-  share(link: string) {
-    document.location.href = link;
-  }
-
-  onNotify(): void {
-    alert("notify");
-  }
 
   formatedPrice(price: number): string {
     return price.toFixed(0).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1 ')

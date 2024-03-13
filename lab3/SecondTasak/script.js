@@ -1,6 +1,6 @@
 let todo = [];
 
-let updateTodoList = function(){
+let updateTodoList = function () {
     const getDiv = document.querySelector('.todo_list');
     getDiv.innerHTML = '';
     todo.forEach(item => {
@@ -11,17 +11,22 @@ let updateTodoList = function(){
         let p = document.createElement('p');
         let img = document.createElement('img');
         let strike = document.createElement('strike');
-        input.addEventListener('change',()=>{
-            if(input.checked){
+        input.addEventListener('change', () => {
+            if (input.checked) {
+                // If checkbox is checked, add strike-through effect
+
                 strike.textContent = p.textContent;
                 inDiv.removeChild(p);
                 inDiv.appendChild(strike);
             }
             else {
+                // If checkbox is unchecked, remove strike-through effect
                 inDiv.removeChild(strike);
                 p.textContent = strike.textContent;
                 inDiv.appendChild(p);
             }
+            // Update the 'checked' property of the corresponding item
+
             item.checked = input.checked;
 
         });
@@ -30,10 +35,14 @@ let updateTodoList = function(){
         imgDiv.appendChild(img);
         outDiv.appendChild(inDiv);
         outDiv.appendChild(imgDiv);
+
+        // Set class names for styling
         outDiv.className = 'div0';
         inDiv.className = 'checkboxAndp';
         imgDiv.className = 'img';
         img.className = 'icon';
+        
+        // Set source for the image
         img.src = 'icon.png';
         input.type = 'checkbox';
         p.textContent = item.text;
@@ -44,24 +53,24 @@ let updateTodoList = function(){
             inDiv.appendChild(strike);
         }
         getDiv.appendChild(outDiv);
-        img.addEventListener('click', ()=>delete_todo(item.id));
+        img.addEventListener('click', () => delete_todo(item.id));
     });
 };
 
-let addTodo = ()=>{
+let addTodo = () => {
     let new_input = document.querySelector('.input').value;
-    if(new_input == ''){
+    if (new_input == '') {
         return;
     }
-    todo.push({id:Date.now(), text: new_input});
+    todo.push({ id: Date.now(), text: new_input });
     updateTodoList();
     document.querySelector('.input').value = '';
 }
 
-let delete_todo = function(id){
+let delete_todo = function (id) {
     todo = todo.filter((item) => item.id != id);
     updateTodoList();
 }
 
 let btn_add = document.querySelector('.btn');
-btn_add.addEventListener('click',addTodo);
+btn_add.addEventListener('click', addTodo);
