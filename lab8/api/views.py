@@ -13,7 +13,8 @@ def get_products(request):
 
 class ProductView(View):
 
-    def get_products(self, request):
+    @staticmethod
+    def get_products(request):
         # print(request.method) show us a method when we send get method in postman
         products = Product.objects.all()
         products_json = [product.to_json() for product in products]
@@ -39,16 +40,6 @@ def get_category(request):
     return JsonResponse(categories_json, safe=False)
 
 
-#
-# class CategoryView(View):
-#     def get(self, request):
-#         categories = [category.to_json() for category in Category.objects.all()]
-#         data = {
-#             'categories': categories
-#         }
-#         return JsonResponse(data, status=200)
-#
-#
 def get_category_details(request, pk=None):
     try:
         category = Category.objects.get(id=pk)

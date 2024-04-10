@@ -28,3 +28,6 @@ class Product(models.Model):
             'count': self.count,
             'is_active': self.is_active,
         }
+
+    def __str__(self):
+        return self.name
