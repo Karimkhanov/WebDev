@@ -1,0 +1,24 @@
+<h1>{{ title }}</h1>
+
+
+<h3>Companies</h3>
+
+
+<fieldset>
+  <input type="text" [(ngModel)]="newCompany.name" placeholder="Name">
+  <input type="text" [(ngModel)]="newCompany.description" placeholder="Description">
+  <input type="text" [(ngModel)]="newCompany.city" placeholder="City">
+  <input type="text" [(ngModel)]="newCompany.address" placeholder="Address">
+  <button (click)="addCompany()">Add company</button>
+</fieldset>
+
+<ul>
+  <li *ngFor="let c of companies">
+    {{ c.id }} - {{ c.name }} - {{ c.description }} - {{c.address}}
+  </li>
+
+</ul>
+
+
+
+
